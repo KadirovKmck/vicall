@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "681041547372",
+    "project_id": "test-370c1",
+    "storage_bucket": "test-370c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681041547372:android:223abab85f32178f614849",
+        "android_client_info": {
+          "package_name": "com.example.mamr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJRvAt9VYRe-U5FqVZ5wXMFDHW0hoyL3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681041547372:android:bdf1f37342903b21614849",
+        "android_client_info": {
+          "package_name": "com.example.vicall"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJRvAt9VYRe-U5FqVZ5wXMFDHW0hoyL3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
