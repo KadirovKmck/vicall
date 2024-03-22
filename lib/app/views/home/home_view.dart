@@ -3,9 +3,7 @@
 import 'dart:developer';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:vicall/app/test/agora.dart';
 
 class HomeView extends StatefulWidget {
@@ -68,7 +66,6 @@ class CustomSearchDelegate extends SearchDelegate {
   Widget buildResults(BuildContext context) {
     final currentQuery = query.trim();
 
-    // Query all collections related to the user
     final querySnapshot = _firestore
         .collection('users')
         .where('userName', isEqualTo: currentQuery)

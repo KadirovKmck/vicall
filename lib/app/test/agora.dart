@@ -1,8 +1,6 @@
 import 'package:agora_rtc_engine/agora_rtc_engine.dart';
 import 'package:agora_uikit/agora_uikit.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
@@ -97,9 +95,13 @@ class _MyAppState extends State<MyApp> {
             width: 205,
             height: 205,
             decoration: BoxDecoration(
-                // borderRadius: BorderRadius.circular(),
-                border: Border.all(
-                    color: Colors.black, width: 5, style: BorderStyle.solid)),
+              borderRadius: BorderRadius.circular(2),
+              border: Border.all(
+                color: Colors.black,
+                width: 5,
+                style: BorderStyle.solid,
+              ),
+            ),
             child: Align(
               alignment: Alignment.topLeft,
               child: SizedBox(
